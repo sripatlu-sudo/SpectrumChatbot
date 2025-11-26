@@ -1,8 +1,5 @@
 streamlit
-openai 
 langchain
-langchain_classic
-langchain-community
-sentence-transformers
-pathlib
-faiss-gpu
+openai
+chromadb
+tiktoken
