@@ -5,3 +5,4 @@ langchain_classic
 langchain-community
 sentence-transformers
 pathlib
+faiss-gpu
