@@ -2,7 +2,7 @@
 import streamlit as st
 import os
 from dotenv import load_dotenv
-import vectorize_client as vc
+from vectorize_client import ApiClient
 from openai import OpenAI
 
 
@@ -17,7 +17,7 @@ if not VECTORIZE_API_KEY or not OPENAI_API_KEY:
     st.error("API keys not found. Please create a .env file or set environment variables.")
     st.stop()
 
-v = vc.Vectorize(api_key=VECTORIZE_API_KEY)
+v = ApiClient(api_key=VECTORIZE_API_KEY)
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Streamlit UI configuration
