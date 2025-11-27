@@ -28,7 +28,7 @@ if not VECTORIZE_API_TOKEN or not OPENAI_API_KEY:
 v = VectorizeRetriever(
     api_token=VECTORIZE_API_TOKEN,
     organization=VECTORIZE_ORG_ID,
-    pipeline_id=pipeline_id,
+    pipeline_id=RAG_PIPELINE_ID,
 )
 
 client = OpenAI(api_key=OPENAI_API_KEY)
