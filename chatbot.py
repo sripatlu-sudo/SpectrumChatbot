@@ -2,7 +2,7 @@
 import streamlit as st
 import os
 from dotenv import load_dotenv
-from vectorize-client import Vectorize
+from vectorize_client import Vectorize
 from openai import OpenAI
 
 # Load environment variables from .env file (optional, but recommended)
