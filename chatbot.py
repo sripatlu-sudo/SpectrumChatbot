@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from vectorize_client import Vectorize
 from openai import OpenAI
 
+
 # Load environment variables from .env file (optional, but recommended)
 load_dotenv()
 VECTORIZE_API_KEY = os.getenv("VECTORIZE_API_KEY")
