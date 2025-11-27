@@ -56,7 +56,7 @@ def get_rag_response(user_input):
     response = v.invoke(user_input, num_results=2)
     # The exact response structure depends on your pipeline configuration, 
     # but typically you get a ready-made answer.
-    return response.answer 
+    return response
 
 # User input
 if prompt := st.chat_input("Ask a question about your documents..."):
