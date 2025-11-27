@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 #from vectorize_client import Vectorize
 from langchain_vectorize.retrievers import VectorizeRetriever
+from openai import OpenAI
 import getpass
 
 VECTORIZE_ORG_ID = "2bd970bf-2207-4759-a02a-7964de963540" #getpass.getpass("Enter Vectorize organization ID: ")
