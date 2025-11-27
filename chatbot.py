@@ -52,7 +52,8 @@ def get_rag_response(user_input):
     # Query the vectorize.io RAG pipeline
     # The 'query' method will retrieve relevant context from your vector store
     # and use the configured LLM (e.g., OpenAI) to generate a response.
-    response = v.pipelines.query(RAG_PIPELINE_ID, query_text=user_input)
+    #response = v.pipelines.query(RAG_PIPELINE_ID, query_text=user_input)
+    response = v.invoke(user_input, num_results=2)
     # The exact response structure depends on your pipeline configuration, 
     # but typically you get a ready-made answer.
     return response.answer 
