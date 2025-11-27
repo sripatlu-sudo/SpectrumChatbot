@@ -58,6 +58,7 @@ def get_rag_response(user_input):
     # but typically you get a ready-made answer.
     return response
 
+
 # User input
 if prompt := st.chat_input("Ask a question about your documents..."):
     # Add user message to chat history
