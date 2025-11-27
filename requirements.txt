@@ -1,4 +1,4 @@
 streamlit 
-vectorize-client 
 openai 
 python-dotenv
+langchain-vectorize
