@@ -1,5 +1,4 @@
-streamlit
-langchain
-openAI
-chromadb
-tiktoken
+streamlit 
+vectorize 
+openai 
+python-dotenv
