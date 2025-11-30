@@ -1,4 +1,6 @@
 streamlit 
 openai 
-python-dotenv
-langchain-vectorize
+faiss-gpu
+faiss-GPU
+langchain
+langchain-classic
